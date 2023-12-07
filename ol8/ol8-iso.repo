@@ -1,0 +1,13 @@
+[ol8-iso]
+name=Oracle Linux $releasever - x86_64 - ISO
+baseurl=http://192.168.56.254/ol89/BaseOS/
+enabled=0
+gpgcheck=1
+gpgkey=http://192.168.56.254/ol89/RPM-GPG-KEY-oracle
+
+[ol8_iso_appstream]
+name=Oracle Linux 8 Application Stream ($basearch)
+baseurl=http://192.168.56.254/ol89/AppStream/
+gpgkey=http://192.168.56.254/ol89/RPM-GPG-KEY-oracle
+gpgcheck=1
+enabled=0
